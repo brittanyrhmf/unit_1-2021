@@ -19,8 +19,6 @@ Apart for this requirements, the owner is open to any type of game, topic or gen
 1. The game has to be entirely text-based.
 2. The game must record the time played.
 3. The game must record the player name and score.
-4. The game will be multiplayer
-5. The questions will have a simple vocabulary and answers requested will be short
 
 # Criteria B: Design
 

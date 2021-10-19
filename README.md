@@ -37,14 +37,19 @@ The database will register the players' names and scores too.
 ## Record of Tasks
 | Task No | Planned Action | Planned Outcome | Time estimate | Target completion date | Criterion |
 |---------|----------------|-----------------|---------------|------------------------|-----------|
-| 1       |code introduction ask for player  |     1 hour    |     23rd september     |
-|         |                |       name,     | 
-|         |                | make a timer etc|
-| 2       |                |25 questions found     1 day     |      16th october      |           |                                                         
-| 3       | code quiz      |input questions  |               |                        |            
-|         |                | into the game   |   2 days      |      18th october                     
-| 4       |  put answers   | game can operate
-|         |  + add. facts  |   now           |    2 days     |       20th october      |
-| 5       | create database| register players|    1 hour     |       20th october      |
-|         |                |  info           | 
-| 6       | make flowcharts| 2 flow diag. done    1 day      |      21st october       |    
+| 1       |     code       |  ask for player |     1 hour    |     23rd september     |           |
+|         | introduction   | name, make timer|               |                        |           |
+|---------|----------------|-----------------|---------------|------------------------|-----------|
+| 2       | find questions | 25 quest. found |    1 day      |     15th october       |           |  
+|---------|----------------|-----------------|---------------|------------------------|-----------|
+| 3       | code quiz      | input questions |    1 day      |      16th october      |           |                                                                                                   
+|         |                |                 |               |                        |           |
+|---------|----------------|-----------------|---------------|------------------------|-----------|                    
+| 4       |  put answers   | game can operate|    2 days     |      18th october      |           |
+|         |  + add. facts  |   now           |               |                        |           |
+|---------|----------------|-----------------|---------------|------------------------|-----------|
+| 5       | create database| register players|    1 hour     |       19th october     |           |
+|         |                |  info           |               |                        |           |
+|---------|----------------|-----------------|---------------|------------------------|-----------|
+| 6       | make flowcharts| 2 flow diagrams |    1 day      |      20th october      |           |
+|---------|----------------|-----------------|---------------|------------------------|-----------|

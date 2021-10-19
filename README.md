@@ -24,7 +24,7 @@ Apart for this requirements, the owner is open to any type of game, topic or gen
 6. Answers will be multiple choice
 
 # Criteria B: Design
-The game consists of 2 people answering random questions and must try to have the most right answers.
+The game consists of 2 people answering random questions and trying to get the most answers right.
 The game has a timer to record the time played and the questions are straight forward. 
 The scores are recorded (1 point for each question) and at the end of the game, the person with the highest score
 wins.

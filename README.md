@@ -33,8 +33,7 @@ The database will register the players' names and scores too.
 ## System Diagram
 
 ## Flow Diagrams
-https://docs.google.com/drawings/d/1v6r169ta6bRpoMcWOXYWEm7IV073utam98b5zrCiXB4
-
+![Flowchart 1](https://user-images.githubusercontent.com/89038847/138137167-d31ce7eb-9ec6-41f0-873f-1ece2c9a1a14.jpg)
 
 ## Record of Tasks
 | Task No | Planned Action | Planned Outcome | Time estimate | Target completion date | Criterion |
@@ -55,3 +54,4 @@ https://docs.google.com/drawings/d/1v6r169ta6bRpoMcWOXYWEm7IV073utam98b5zrCiXB4
 |---------|----------------|-----------------|---------------|------------------------|-----------|
 | 6       | make flowcharts| 2 flow diagrams |    1 day      |      20th october      |           |
 |---------|----------------|-----------------|---------------|------------------------|-----------|
+

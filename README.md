@@ -33,6 +33,8 @@ The database will register the players' names and scores too.
 ## System Diagram
 
 ## Flow Diagrams
+https://docs.google.com/drawings/d/1v6r169ta6bRpoMcWOXYWEm7IV073utam98b5zrCiXB4
+
 
 ## Record of Tasks
 | Task No | Planned Action | Planned Outcome | Time estimate | Target completion date | Criterion |

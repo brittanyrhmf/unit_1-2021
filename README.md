@@ -56,5 +56,5 @@ The database will register the players' names and scores too.
 |---------|----------------|-----------------|---------------|------------------------|-----------|
 | 7       | improve timer  |  hour/min/sec.  |    1 day      |    20th october        |           | 
 | 8       | test game      |correct any error|    1 day      |    21 october          |           |
-| 9       |update repos.   |verify flowcharts|               |    22 october          |           |
-|         |                |and diagrams     |    1 day      |     
+| 9       |update repos.   |verify flowcharts|    1 day      |    22 october          |           |
+|         |                |and diagrams     |               |     

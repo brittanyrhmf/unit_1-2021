@@ -39,7 +39,7 @@ The database will register the players' names and scores too.
 | Task No | Planned Action | Planned Outcome | Time estimate | Target completion date | Criterion |
 |---------|----------------|-----------------|---------------|------------------------|-----------|
 | 1       |     code       |  ask for player |     1 hour    |     23rd september     |           |
-|         | introduction   | name, make timer|               |                        |           |
+|         | introduction   | name,           |               |                        |           |
 |---------|----------------|-----------------|---------------|------------------------|-----------|
 | 2       | find questions | 25 quest. found |    1 day      |     15th october       |           |  
 |---------|----------------|-----------------|---------------|------------------------|-----------|
@@ -47,11 +47,14 @@ The database will register the players' names and scores too.
 |         |                |                 |               |                        |           |
 |---------|----------------|-----------------|---------------|------------------------|-----------|                    
 | 4       |  put answers   | game can operate|    2 days     |      18th october      |           |
-|         |  + add. facts  |   now           |               |                        |           |
+|         | + add facts    |   now           |               |                        |           |
 |---------|----------------|-----------------|---------------|------------------------|-----------|
 | 5       | create database| register players|    1 hour     |       19th october     |           |
 |         |                |  info           |               |                        |           |
 |---------|----------------|-----------------|---------------|------------------------|-----------|
 | 6       | make flowcharts| 2 flow diagrams |    1 day      |      20th october      |           |
 |---------|----------------|-----------------|---------------|------------------------|-----------|
-
+| 7       | improve timer  |  hour/min/sec.  |    1 day      |    20th october        |           | 
+| 8       | test game      |correct any error|    1 day      |    21 october          |           |
+| 9       |update repos.   |verify flowcharts|               |    22 october          |           |
+|         |                |and diagrams     |    1 day      |     

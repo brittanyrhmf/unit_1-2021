@@ -15,6 +15,11 @@ Apart for this requirements, the owner is open to any type of game, topic or gen
 
 ## Proposed Solution
 
+I chose a Multiple Choice Quiz game (with 3 answers choices: a, b or c) to limit the amount of typing errors from the players that might affect the score counts compared to a normal quiz game where the user has to type their direct answers.
+In my opinion, the game is appropriate for users 12+ as the questions and answers are straight forward and with a limited choice of answers.
+I chose this game because it is intelectual and can help in the development of general knowledge. The additional facts that are added at the end of each questions may also teach something new to the players.
+Moreover, it is multiplayer so 2 friends can play together and see which one of them knows the most random facts. 
+
 ## Success Criteria
 1. The game has to be entirely text-based.
 2. The game must record the time played.

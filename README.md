@@ -59,9 +59,9 @@ Moreover, it is multiplayer so 2 friends can play together and see which one of 
 |---------|----------------|-----------------|---------------|------------------------|-----------|
 | 6       | make flowcharts| explain how the |    1 day      |      20th october      |           |
 |         |                |  games and turns| 
-|         |                  function
+|         |                |  function       |
 |7        |define clear    |clear screen     | 30mins        |    21st october        |           |
-|           function        after each turn
+|         |  function      |  after each turn|
 |8        | improve timer  |  hour/min/sec.  |    15 mins    |    21st october        |           | 
 |9        | test game      |correct any error|    30mins     |    21 october          |           |
 |10       |update reposito |system diagrams  |    1 day      |    23 october          |           |

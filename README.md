@@ -13,6 +13,9 @@ The owner of the local game shop is an enthusiast of classic computer games. He 
 
 Apart for this requirements, the owner is open to any type of game, topic or genre.
 
+## Design Statement:
+I will to design and make a Quiz game for a client who is the owner of a local game shop. The game will be intelectual and about general knowledge and is constructed using the software Pycharm. It will take 1 month to make and will be evaluated according to the criteria ———.
+
 ## Proposed Solution
 
 I chose a Multiple Choice Quiz game (with 3 answers choices: a, b or c) to limit the amount of typing errors from the players that might affect the score counts compared to a normal quiz game where the user has to type their direct answers.
@@ -29,11 +32,6 @@ Moreover, it is multiplayer so 2 friends can play together and see which one of 
 6. Answers will be multiple choice
 
 # Criteria B: Design
-The game consists of 2 people answering random questions and trying to get the most answers right.
-The game has a timer to record the time played and the questions are straight forward. 
-The scores are recorded (1 point for each question) and at the end of the game, the person with the highest score
-wins.
-The database will register the players' names and scores too.
 
 ## System Diagram
 ![system diagram ](https://user-images.githubusercontent.com/89038847/138663496-d63095f4-3257-4ff3-9dbe-e69137f0b659.jpg)
@@ -45,23 +43,27 @@ The database will register the players' names and scores too.
 ## Record of Tasks
 | Task No | Planned Action | Planned Outcome | Time estimate | Target completion date | Criterion |
 |---------|----------------|-----------------|---------------|------------------------|-----------|
-| 1       |     code       |  ask for player |     1 hour    |     23rd september     |           |
-|         | introduction   | name,           |               |                        |           |
+| 1       |     code the   |  record the pla-|     20mins    |     23rd september     |           |
+|         | introduction   | er's names      |               |                        |           |
 |---------|----------------|-----------------|---------------|------------------------|-----------|
-| 2       | find questions | 25 quest. found |    1 day      |     15th october       |           |  
+| 2       | find questions | 25 quest. found |    1h30mins   |     15th october       |           |  
 |---------|----------------|-----------------|---------------|------------------------|-----------|
-| 3       | code quiz      | input questions |    1 day      |      16th october      |           |                                                                                                   
-|         |                |                 |               |                        |           |
+| 3       | create function| tell users when |    20 mins    |      16th october      |           |                                                                                                   
+|         |for players turn| it is their turn|               |                        |           |           
 |---------|----------------|-----------------|---------------|------------------------|-----------|                    
-| 4       |  put answers   | game can operate|    2 days     |      18th october      |           |
+| 4       |  put answers   | game can operate|    1 day      |      18th october      |           |
 |         | + add facts    |   now           |               |                        |           |
 |---------|----------------|-----------------|---------------|------------------------|-----------|
 | 5       | create database| register players|    1 hour     |       19th october     |           |
 |         |                |  info           |               |                        |           |
 |---------|----------------|-----------------|---------------|------------------------|-----------|
-| 6       | make flowcharts| 3 flow diagrams |    1 day      |      20th october      |           |
-|---------|----------------|-----------------|---------------|------------------------|-----------|
-| 7       | improve timer  |  hour/min/sec.  |    1 day      |    20th october        |           | 
-| 8       | test game      |correct any error|    1 day      |    21 october          |           |
-| 9       |update reposita |system diagrams  |    1 day      |    23 october          |           |
+| 6       | make flowcharts| explain how the |    1 day      |      20th october      |           |
+|         |                |  games and turns| 
+|         |                  function
+|7        |define clear    |clear screen     | 30mins        |    21st october        |           |
+|           function        after each turn
+|8        | improve timer  |  hour/min/sec.  |    15 mins    |    21st october        |           | 
+|9        | test game      |correct any error|    30mins     |    21 october          |           |
+|10       |update reposito |system diagrams  |    1 day      |    23 october          |           |
 |         |   -ry          |and caesar cypher|               |     
+|         |

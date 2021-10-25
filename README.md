@@ -36,6 +36,8 @@ wins.
 The database will register the players' names and scores too.
 
 ## System Diagram
+![system diagram ](https://user-images.githubusercontent.com/89038847/138663496-d63095f4-3257-4ff3-9dbe-e69137f0b659.jpg)
+
 
 ## Flow Diagrams
 ![Flowchart 1](https://user-images.githubusercontent.com/89038847/138137167-d31ce7eb-9ec6-41f0-873f-1ece2c9a1a14.jpg)
@@ -57,9 +59,9 @@ The database will register the players' names and scores too.
 | 5       | create database| register players|    1 hour     |       19th october     |           |
 |         |                |  info           |               |                        |           |
 |---------|----------------|-----------------|---------------|------------------------|-----------|
-| 6       | make flowcharts| 2 flow diagrams |    1 day      |      20th october      |           |
+| 6       | make flowcharts| 3 flow diagrams |    1 day      |      20th october      |           |
 |---------|----------------|-----------------|---------------|------------------------|-----------|
 | 7       | improve timer  |  hour/min/sec.  |    1 day      |    20th october        |           | 
 | 8       | test game      |correct any error|    1 day      |    21 october          |           |
-| 9       |update reposita |verify flowcharts|    1 day      |    23 october          |           |
-|         |   -ry          |and diagrams     |               |     
+| 9       |update reposita |system diagrams  |    1 day      |    23 october          |           |
+|         |   -ry          |and caesar cypher|               |     

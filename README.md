@@ -34,8 +34,8 @@ Moreover, it is multiplayer so 2 friends can play together and see which one of 
 # Criteria B: Design
 
 ## System Diagram
-![system diagram ](https://user-images.githubusercontent.com/89038847/138663496-d63095f4-3257-4ff3-9dbe-e69137f0b659.jpg)
 
+![system diagram ](https://user-images.githubusercontent.com/89038847/138663496-d63095f4-3257-4ff3-9dbe-e69137f0b659.jpg)
 
 # Flow Diagrams
 
@@ -69,12 +69,20 @@ Moreover, it is multiplayer so 2 friends can play together and see which one of 
 |         |                |  info           |               |                        |           |
 |---------|----------------|-----------------|---------------|------------------------|-----------|
 | 6       | make flowcharts| explain how the |    1 day      |      20th october      |           |
-|         |                |  games and turns| 
-|         |                |  function       |
+|         |                |  games and turns|               |                        |           |
+|         |                | function        |               |
+|---------|----------------|-----------------|---------------|------------------------|-----------|
 |7        |define clear    |clear screen     | 30mins        |    21st october        |           |
 |         |  function      |  after each turn|
+|---------|----------------|-----------------|---------------|------------------------|-----------|
 |8        | improve timer  |  hour/min/sec.  |    15 mins    |    21st october        |           | 
+|---------|----------------|-----------------|---------------|------------------------|-----------|
 |9        | test game      |correct any error|    30mins     |    21 october          |           |
-|10       |update reposito |system diagrams  |    1 day      |    24 october          |           |
+|---------|----------------|-----------------|---------------|------------------------|-----------|
+|10       |caesar cipher   |encrypt data     |               |                        |           |
+|---------|----------------|-----------------|---------------|------------------------|-----------|
+|11       |update reposito |system diagrams  |    1 day      |    24 october          |           |
 |         |   -ry          |and caesar cypher|               |     
-|         |
+|---------|----------------|-----------------|---------------|------------------------|-----------|
+
+<3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3

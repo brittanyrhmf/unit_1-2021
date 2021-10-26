@@ -28,17 +28,3 @@ def current_score():
     print('\nCurrent scores:\n', name_1, ':', score1, 'point(s)\n ', name_2, ':', score2, 'point(s)')
     print('')
 
-# create database and save players info
-
-score_file = "score.txt"
-s = open(score_file, "a")
-line = name_1 + '=' + str(score1) + '\n' + name_2 + '=' + str(score2) + '\n'
-s.write(line)
-s.close()
-s = open(score_file, "r")
-print()
-print('final scores')
-print(s.read())
-s.close()
-
-

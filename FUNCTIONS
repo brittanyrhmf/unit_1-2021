@@ -1,0 +1,54 @@
+# clear the screen after each player's turn
+
+def clear():
+    os.system('clear' if os.name == 'posix' else 'clear')
+
+# player 1's turn
+
+def turn_1():
+    print(name_1, ',your turn')
+   
+# player 2's turn
+
+def turn_2():
+    print(name_2, ',your turn')
+    
+# right or wrong answer 
+
+def right():
+    print('Good answer!')
+
+
+def wrong():
+    print('Wrong!')
+
+# display the players' current scores after each question 
+
+def current_score():
+    print('\nCurrent scores:\n', name_1, ':', score1, 'point(s)\n ', name_2, ':', score2, 'point(s)')
+    print('')
+
+# create database and save players info
+
+score_file = "score.txt"
+s = open(score_file, "a")
+line = name_1 + '=' + str(score1) + '\n' + name_2 + '=' + str(score2) + '\n'
+s.write(line)
+s.close()
+s = open(score_file, "r")
+print()
+print('final scores')
+print(s.read())
+s.close()
+
+# Timer 
+
+import time 
+
+start = time.time()
+end = time.time()
+time_played = end - start
+hours = time_played//3600
+minutes = time_played//60
+seconds = time_played - 60*minutes
+print("Time played:", '%d:%d:%d' % (hours, minutes, seconds))

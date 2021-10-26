@@ -1,0 +1,975 @@
+# success criteria no. 2 : record the time played
+import time
+import os
+start = time.time()
+
+# define the function to clear the screen after each players' turn
+
+
+def clear():
+    os.system('clear' if os.name == 'posix' else 'clear')
+
+
+print("hello, welcome to Let's Get Quizzical! :) Get ready to answer to the most random questions!")
+
+# success criteria no. 4: make the game multiplayer - ask users to input their names
+name_1 = input("Player 1:")
+name_2 = input("Player 2:")
+print('please answer all the questions with either "a", "b" or "c"')
+print("Get ready..3..2..1")
+time.sleep(3)
+clear()
+
+# success criteria no. 3 : record player scores
+score1 = 0
+score2 = 0
+
+# define a function for each time it is player 1's turn
+
+
+def turn_1():
+    print(name_1, ',your turn')
+
+
+# Question 1
+turn_1()
+ans = input('1. Which state has 1350 miles of coastline?\n a. Florida\n b. Colorado\n c. Kentucky\n answer:\n')
+
+
+def right():
+    print('Good answer!')
+
+
+def wrong():
+    print('Wrong!')
+
+
+if ans.lower() == 'a':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+# define a function for each time it is player 2's turn
+
+
+def turn_2():
+    print(name_2, ',your turn')
+
+
+turn_2()
+ans = input('1. Which state has 1350 miles of coastline?\n a. Florida\n b. Colorado\n c. Kentucky\n answer:\n')
+
+if ans.lower() == 'a':
+    score2 += 1
+    right()
+else:
+    score2 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print('\nThe answer was: Florida.\n Additional fact: Florida has the longest coastline in the US',)
+
+# define a function to display the current scores of the players after each question
+
+
+def current_score():
+    print('\nCurrent scores:\n', name_1, ':', score1, 'point(s)\n ', name_2, ':', score2, 'point(s)')
+    print('')
+
+
+current_score()
+
+# Question 2
+turn_1()
+ans = input("2. What was Eric Blair's pen name?\n a. George Orwell\n b. William Blake\n c. John Donne\n answer:\n")
+
+if ans.lower() == 'a':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+turn_2()
+ans = input("2. What was Eric Blair's pen name?\n a. George Orwell\n b. William Blake\n c. John Donne\n answer:\n")
+if ans.lower() == 'a':
+    score2 += 1
+    right()
+else:
+    score2 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print('\nThe answer was: George Orwell.\n Additional fact: He was the author of the famous book Animal farm')
+
+current_score()
+
+
+# Question 3
+turn_1()
+ans = input("3. What does R&B stands for in music?\n a. Rhythm and blues\n b. rap and beats\n c. rhythm and beats \n"
+            " answer:\n")
+
+if ans.lower() == 'a':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+turn_2()
+ans = input("3. What does R&B stands for in music?\n a. Rhythm and blues\n b. rap and beats\n c. rhythm and beats \n"
+            " answer:\n")
+
+if ans.lower() == 'a':
+    score2 += 1
+    right()
+else:
+    score2 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print('\nThe answer was: Rhythm and blues.\n Additional fact: '
+      'it is a genre of popular music that originated in the 1940s')
+
+current_score()
+
+# Question 4
+
+turn_1()
+ans = input("\n4. What was the last country to join the United Nations? \na. Costa Rica\n b. Republic "
+            "of south Sudan\n c.Qatar\n answer:\n")
+
+if ans.lower() == 'b':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+turn_2()
+ans = input("\n4. What was the last country to join the United Nations? \na. Costa Rica\n b. Republic "
+            "of south Sudan\n c.Qatar\n answer:\n")
+
+if ans.lower() == 'b':
+    score2 += 1
+    right()
+else:
+    score2 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print('\nThe answer was:Republic of South Sudan.\nAdditional fact: They were admitted as the 193rd member of the UN on '
+      'the 14 July 2011.')
+
+current_score()
+
+# Question 5
+
+turn_1()
+ans = input("\n5. What was the first book to be printed in England? \na.The Recuyell of the Historyes of Troye\n "
+            "b. The Fables of Aesop\n c.The Game and Play of the Chesse\n answer:\n")
+
+if ans.lower() == 'a':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+turn_2()
+ans = input("\n5. What was the first book to be printed in England? \na.The Recuyell of the Historyes of Troye\n "
+            "b. The Fables of Aesop\n c.The Game and Play of the Chesse\n answer:\n")
+
+if ans.lower() == 'a':
+    score2 += 1
+    right()
+else:
+    score2 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print('\nThe answer was: The Recuyell of the Historyes of Troye '
+      '\nAdditional info: It was translated from French to English by William Caxton and produced in 1473 '
+      'in either Bruges or Ghent.')
+
+current_score()
+
+# Question 6
+
+turn_1()
+ans = input("\n6. Who is the only president to serve more than two terms? \na. James Madison\n "
+            "b. Warren G. Harding\n c.Franklin D. Roosevelt\n answer:\n")
+
+if ans.lower() == 'c':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+turn_2()
+ans = input("\n6. Who is the only president to serve more than two terms? \na. James Madison\n "
+            "b. Warren G. Harding\n c.Franklin D. Roosevelt\n answer:\n")
+
+if ans.lower() == 'c':
+    score2 += 1
+    right()
+else:
+    score2 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print('\nThe answer was: Franklin D. Roosevelt\n'
+      'Additional info: since 1944, he remains the only president to have served more than two terms.')
+
+current_score()
+
+# Question 7
+
+turn_1()
+ans = input("\n7. What are the three fairies names in sleeping beauty?  \na. Fiona, Cynthia and Mary-Jane\n "
+            "b. Sephora, Gloria and Elvenia \n c. Flora, Fauna and Merryweather\n answer:\n")
+
+if ans.lower() == 'c':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+turn_2()
+ans = input("\n7. What are the three fairies names in sleeping beauty?  \na. Fiona, Cynthia and Mary-Jane\n "
+            "b. Sephora, Gloria and Elvenia \n c. Flora, Fauna and Merryweather\n answer:\n")
+
+if ans.lower() == 'c':
+    score2 += 1
+    right()
+else:
+    score2 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print('The answer was: Flora, Fauna and Merryweather.'
+      '\nAdditional info: Flora is voiced by Verna Felton, Fauna is voiced by Barbara Jo Allen, '
+      'and Merryweather is voiced by Barbara Luddy.')
+
+current_score()
+
+# Question 8
+
+turn_1()
+ans = input("\n8. What colour was the original Hulk?  \na. Grey\n "
+            "b. Purple\n c. Brown\n answer:\n")
+
+if ans.lower() == 'a':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+turn_2()
+ans = input("\n8. What colour was the original Hulk?  \na. Grey\n "
+            "b. Purple\n c. Brown\n answer:\n")
+
+if ans.lower() == 'a':
+    score2 += 1
+    right()
+else:
+    score2 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print('\nThe answer was: Grey.\n Additional info: The printing press kept having trouble with Hulk’s color'
+      ' and he kept coming out green, so he only spent the first issues of the comic being grey.  ')
+
+current_score()
+
+# Question 9
+
+turn_1()
+ans = input("\n9. What animal is not nocturnal? \na. Hedgehogs\n "
+            "b. Coyotes\n c. Badgers\n answer:\n")
+
+if ans.lower() == 'b':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+turn_2()
+ans = input("\n9. What animal is not nocturnal? \na. Hedgehogs\n "
+            "b. Coyotes\n c. Badgers\n answer:\n")
+
+if ans.lower() == 'b':
+    score2 += 1
+    right()
+else:
+    score2 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print('\nThe answer was: Coyotes.'
+      '\nAdditional info: Did you know that the opposite of Nocturnal animals are called Crepuscular animals?')
+
+current_score()
+
+# Question 10
+
+turn_1()
+ans = input("\n10. Who is the bassist for the Beatles?\n a. Paul McCartney\n "
+            "b. George Harrison\n c. Jimmie Nicol\n answer:\n")
+
+if ans.lower() == 'a':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+turn_2()
+ans = input("\n10. Who is the bassist for the Beatles?\n a. \nPaul McCartney\n "
+            "b. George Harrison\n c. Jimmie Nicol\n answer:\n")
+
+if ans.lower() == 'a':
+    score2 += 1
+    right()
+else:
+    score2 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print('\nThe answer was: Paul McCartney. \nAdditional Facts:'
+      'The Beatles have the most No. 1 hits of all time: 20. '
+      'Though unclear for how long, the Beatles still reign supreme as the artist with the most No. 1 '
+      'songs of all time.')
+
+current_score()
+
+# Question 11
+
+turn_1()
+ans = input("\n11. Which planet rotates the fastest on its axis?\n a. Mars\n "
+            "b. Venus\n c. Jupiter\n answer:\n")
+
+if ans.lower() == 'c':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+turn_2()
+ans = input("\n11. Which planet rotates the fastest on its axis?\n a. Mars\n "
+            "b. Venus\n c. Jupiter\n answer:\n")
+
+if ans.lower() == 'c':
+    score2 += 1
+    right()
+else:
+    score2 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print('\nThe answer was: Jupiter.\n'
+      ' Additional info: Jupiter rotates on average once in just under 10 hours '
+      'and has the shortest days of all the planets in the Solar System.')
+
+current_score()
+
+# Question 12
+
+turn_1()
+ans = input("\n12. How old was Mozart when he wrote his first song?\n a. 5yrs old\n "
+            "b. 7yrs old\n c. 9yrs old\n answer:\n")
+
+if ans.lower() == 'a':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+turn_2()
+ans = input("\n12. How old was Mozart when he wrote his first song?\n a. 5yrs old\n "
+            "b. 7yrs old\n c. 9yrs old\n answer:\n")
+
+if ans.lower() == 'a':
+    score2 += 1
+    right()
+else:
+    score2 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print("\nThe answer was: 5yrs old.\n"
+      " Additional info: At six, Mozart toured as child prodigy and by 16, "
+      "he'd already written three operas and 25 symphonies.")
+
+current_score()
+
+# Question 13
+
+turn_1()
+ans = input("\n13. Which is the largest state in the USA by area? \n a. Alaska\n "
+            "b. Kentucky\n c. Colorado\n answer:\n")
+
+if ans.lower() == 'a':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+turn_2()
+ans = input("\n13. Which is the largest state in the USA by area? \n a. Alaska\n "
+            "b. Kentucky\n c. Colorado\n answer:\n")
+
+if ans.lower() == 'a':
+    score2 += 1
+    right()
+else:
+    score2 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print("\nThe answer was: Alaska.\n "
+      "Additional info: Despite being the second largest state, Texas is only 40% of the total area of Alaska")
+
+current_score()
+
+# Question 14
+
+turn_1()
+ans = input("\n14. How many teeth does an elephant have?\n a. 32\n "
+            "b. 26\n c. 28\n answer:\n")
+
+if ans.lower() == 'b':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+turn_2()
+ans = input("\n14. How many teeth does an elephant have?\n a. 32\n "
+            "b. 26\n c. 28\n answer:\n")
+
+if ans.lower() == 'b':
+    score2 += 1
+    right()
+else:
+    score2 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print("\nThe answer was: 26 teeth.\n"
+      " Additional info: Unlike most mammals, which grow baby teeth and then replace them with a single permanent set"
+      " of adult teeth, elephants have cycles of tooth rotation throughout their lives.")
+
+current_score()
+
+# Question 15
+
+turn_1()
+ans = input("\n15. Who was the God of Love in Greek mythology?\n a. Apollo\n "
+            "b. Adonis\n c. Eros\n answer:\n")
+
+if ans.lower() == 'c':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+turn_2()
+ans = input("\n15. Who was the God of Love in Greek mythology?\n a. Apollo\n "
+            "b. Adonis\n c. Eros\n answer:\n")
+
+if ans.lower() == 'c':
+    score2 += 1
+    right()
+else:
+    score2 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print("\nThe answer was: Eros. Additional info: His Roman counterpart was Cupid (‘desire’)")
+
+current_score()
+
+# Question 16
+
+turn_1()
+ans = input("\n16. In which year was the first dollar bill made?\n a. 1849\n "
+            "b. 1852\n c. 1863\n answer:\n")
+
+if ans.lower() == 'c':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+turn_2()
+ans = input("\n16. In which year was the first dollar bill made?\n a. 1849\n "
+            "b. 1852\n c. 1863\n answer:\n")
+
+if ans.lower() == 'c':
+    score2 += 1
+    right()
+else:
+    score2 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print("\nThe answer was: 1863.\n Additional info: The first one-dollar bill was issued with a portrait "
+      "of Salmon P. Chase, the Secretary of the Treasury under President Abraham Lincoln.")
+
+current_score()
+
+# Question 17
+
+turn_1()
+ans = input("\n17. In which year was baseball invented?\n a. 1839\n "
+            "b. 1950\n c. 1874\n answer:\n")
+
+if ans.lower() == 'a':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+turn_2()
+ans = input("\n17. In which year was baseball invented?\n a. 1839\n "
+            "b. 1950\n c. 1874\n answer:\n")
+
+if ans.lower() == 'a':
+    score2 += 1
+    right()
+else:
+    score2 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print("\nThe answer was: 839.\n Additional info: Baseball was invented by Abner Doubleday, who then went on to become a"
+      " Civil War hero, while baseball became America’s beloved national pastime.")
+
+current_score()
+
+# Question 18
+
+turn_1()
+ans = input("\n18. Which one is not the name of a fish species?\n a. Neon Tetra\n "
+            "b. Calcarea\n c. Blue Tang\n answer:\n")
+
+if ans.lower() == 'b':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+turn_2()
+ans = input("\n18. Which one is not the name of a fish species?\n a. Neon Tetra\n "
+            "b. Calcarea\n c. Blue Tang\n answer:\n")
+
+if ans.lower() == 'b':
+    score2 += 1
+    right()
+else:
+    score2 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print("\nThe answer was: Calcarea.\n Additional info: Calcarea is actually a type of Sponge, not a type of fish.")
+
+current_score()
+
+# Question 19
+
+turn_1()
+ans = input("\n18. What Ninja Turtle has a red bandana? \n a. Michelangelo\n "
+            "b. Donatello\n c. Raphael\n answer:\n")
+
+if ans.lower() == 'c':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+turn_2()
+ans = input("\n18. What Ninja Turtle has a red bandana? \n a. Michelangelo\n "
+            "b. Donatello\n c. Raphael\n answer:\n")
+
+if ans.lower() == 'c':
+    score2 += 1
+    right()
+else:
+    score2 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print("\nThe answer was: Raphael.\n Additional info: "
+      "Michelangelo has orange bandanas, Leonardo blue ones and Donatello purple.")
+
+current_score()
+
+# Question 20
+
+turn_1()
+ans = input("\n20. Which animal is cannibalistic?\n a. Raccoons\n "
+            "b. Ladybugs\n c. Butterflies\n answer:\n")
+
+if ans.lower() == 'b':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+turn_2()
+ans = input("\n20. Which animal is cannibalistic?\n a. Raccoons\n "
+            "b. Ladybugs\n c. Butterflies\n answer:\n")
+
+if ans.lower() == 'b':
+    score2 += 1
+    right()
+else:
+    score2 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print("\nThe answer was: Ladybugs \nAdditional info: The larvae of several ladybugs eat ladybugs eggs "
+      "that have yet to hatch (their own siblings)  ")
+
+current_score()
+
+# Question 21
+
+turn_1()
+ans = input("\n21. How many countries does the equator pass through?\n a. 13\n "
+            "b. 19\n c. 21\n answer:\n")
+
+if ans.lower() == 'a':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+turn_2()
+ans = input("\n21. How many countries does the equator pass through?\n a. 13\n "
+            "b. 19\n c. 21\n answer:\n")
+
+if ans.lower() == 'a':
+    score2 += 1
+    right()
+else:
+    score2 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print("\nThe answer was: 13. Additional info: "
+      "the equator passes through Ecuador, Colombia, Brazil, Sao Tome & Principe, Gabon, Republic of the Congo, "
+      "Democratic Republic of the Congo, Uganda, Kenya, Somalia, Maldives, Indonesia and Kiribati.")
+
+current_score()
+
+# Question 22
+
+turn_1()
+ans = input("\n22. Which animal has the best sense of smell?\n a. Elephants\n "
+            "b. Dogs\n c. Monkeys\n answer:\n")
+
+if ans.lower() == 'a':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+turn_2()
+ans = input("\n22. Which animal has the best sense of smell?\n a. Elephants\n "
+            "b. Dogs\n c. Monkeys\n answer:\n")
+
+if ans.lower() == 'a':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print("\nThe answer was: Elephants.\n"
+      " Additional info: elephants’ trunk is packed with five times more smell receptors than humans.")
+
+current_score()
+
+# Question 23
+
+turn_1()
+ans = input("\n23. What gland is responsible for regulating metabolism?\n a. Parathyroid\n "
+            "b. Pituitary\n c. Thyroid\n answer:\n")
+
+if ans.lower() == 'c':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+turn_2()
+ans = input("\n23. What gland is responsible for regulating metabolism?\n a. Parathyroid\n "
+            "b. Pituitary\n c. Thyroid\n answer:\n")
+
+if ans.lower() == 'c':
+    score2 += 1
+    right()
+else:
+    score2 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print("\nThe answer was: Thyroid. "
+      "Additional info: Parathyroid glands regulate calcium levels and have no effect on metabolism.")
+
+current_score()
+
+# Question 24
+
+turn_1()
+ans = input("\n24. Which is the worlds smallest country\n a. Maldives\n "
+            "b. Vatican City\n c. Monaco\n answer:\n")
+
+if ans.lower() == 'b':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+turn_2()
+ans = input("\n24. Which is the worlds smallest country\n a. Maldives\n "
+            "b. Vatican City\n c. Monaco\n answer:\n")
+
+if ans.lower() == 'b':
+    score2 += 1
+    right()
+else:
+    score2 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print("\nThe answer was: Vatican City. Add info: Vatican City measures just 0.2 square miles, "
+      "almost 120 times smaller than the island of Manhattan.")
+
+
+current_score()
+
+# Question 25
+
+turn_1()
+ans = input("\n 25. Which only country in the world have a square flag?\n a. Netherlands\n "
+            "b. Switzerland\n c. Denmark\n answer:\n")
+
+if ans.lower() == 'b':
+    score1 += 1
+    right()
+else:
+    score1 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+turn_2()
+ans = input("\n 25. Which only country in the world have a square flag?\n a. Netherlands\n "
+            "b. Switzerland\n c. Denmark\n answer:\n")
+
+if ans.lower() == 'b':
+    score2 += 1
+    right()
+else:
+    score2 += 0
+    wrong()
+
+time.sleep(2)
+clear()
+
+print("\nThe answer was: Switzerland."
+      " Additional info: The flag of Switzerland consists of a red flag with a white cross"
+      " (a bold, equilateral cross) in the centre. ")
+
+time.sleep(6)
+clear()
+
+# END
+
+# display the final scores and say who is the winner
+print('Thank you for playing!\n Your final scores are:'
+      '\n', name_1, ':', score1, 'point(s)\n ', name_2, ':', score2, 'point(s)'
+      '\nThe winner is:')
+if score1 > score2:
+    print(name_1)
+elif score2 < score1:
+    print(name_2)
+else:
+    print('...The game ends in a draw, well played!')
+
+# end timer, conversion of the time in (sec) into (h/min/sec) format and display time played
+end = time.time()
+time_played = end - start
+hours = time_played//3600
+minutes = time_played//60
+seconds = time_played - 60*minutes
+print("Time played:", '%d:%d:%d' % (hours, minutes, seconds))
+
+# create database and save players info
+score_file = "score.txt"
+s = open(score_file, "a")
+line = name_1 + '=' + str(score1) + '\n' + name_2 + '=' + str(score2) + '\n'
+s.write(line)
+s.close()
+s = open(score_file, "r")
+print()
+print('final scores')
+print(s.read())
+s.close()
+
+# caesar ciphon to encrypt data (i was not so sure about this one :/)
+data = name_1, name_2
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+key = 5
+encrypt = ''
+for i in data:
+    position = alphabet.find(i)
+    new_position = (position + 5) % 26
+    encrypt = alphabet[new_position]
+    print(encrypt)

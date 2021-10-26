@@ -1,0 +1,9 @@
+# Timer
+import time 
+start = time.time()
+end = time.time()
+time_played = end - start
+hours = time_played//3600
+minutes = time_played//60
+seconds = time_played - 60*minutes
+print("Time played:", '%d:%d:%d' % (hours, minutes, seconds))

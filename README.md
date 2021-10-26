@@ -45,7 +45,7 @@ Moreover, it is multiplayer so 2 friends can play together and see which one of 
 
 ##  Score count
 
-![Untitled Diagram](https://user-images.githubusercontent.com/89038847/138900315-54a892d1-a18d-4893-b5b0-870618b56f40.jpg)
+![Untitled Diagram-2](https://user-images.githubusercontent.com/89038847/138900936-e10f16cc-82fe-4d5b-9b35-dfbd9f7abbe3.jpg)
 
 ## Final scores Flowchart
 

@@ -37,13 +37,13 @@ Moreover, it is multiplayer so 2 friends can play together and see which one of 
 ![system diagram ](https://user-images.githubusercontent.com/89038847/138663496-d63095f4-3257-4ff3-9dbe-e69137f0b659.jpg)
 
 
-## Flow Diagrams
+# Flow Diagrams
 
-# General Flowchart 
+## General Flowchart 
 
 ![Flowchart 1](https://user-images.githubusercontent.com/89038847/138137167-d31ce7eb-9ec6-41f0-873f-1ece2c9a1a14.jpg)
 
-# Final scores Flowchart
+## Final scores Flowchart
 
 ![Final scores](https://user-images.githubusercontent.com/89038847/138864230-7d31dd3a-3103-41c4-ad8e-5ba9f959b03c.jpg)
 

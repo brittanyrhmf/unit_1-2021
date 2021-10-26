@@ -40,6 +40,10 @@ Moreover, it is multiplayer so 2 friends can play together and see which one of 
 ## Flow Diagrams
 ![Flowchart 1](https://user-images.githubusercontent.com/89038847/138137167-d31ce7eb-9ec6-41f0-873f-1ece2c9a1a14.jpg)
 
+## Caesar Ciphon 
+![caesar cipher](https://user-images.githubusercontent.com/89038847/138861428-5c2da78a-9597-4214-94f7-facdc0e47cab.jpg)
+
+
 ## Record of Tasks
 | Task No | Planned Action | Planned Outcome | Time estimate | Target completion date | Criterion |
 |---------|----------------|-----------------|---------------|------------------------|-----------|
@@ -64,6 +68,6 @@ Moreover, it is multiplayer so 2 friends can play together and see which one of 
 |         |  function      |  after each turn|
 |8        | improve timer  |  hour/min/sec.  |    15 mins    |    21st october        |           | 
 |9        | test game      |correct any error|    30mins     |    21 october          |           |
-|10       |update reposito |system diagrams  |    1 day      |    23 october          |           |
+|10       |update reposito |system diagrams  |    1 day      |    24 october          |           |
 |         |   -ry          |and caesar cypher|               |     
 |         |
